@@ -1,0 +1,26 @@
+{
+  "name": "ender-twitch-bot",
+  "version": "1.0.0",
+  "description": "Twitch Bot for Ender410's channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "!test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robecampbelljr/ender-twitch-bot.git"
+  },
+  "keywords": [
+    "twitch",
+    "bot"
+  ],
+  "author": "robecampbelljr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robecampbelljr/ender-twitch-bot/issues"
+  },
+  "homepage": "https://github.com/robecampbelljr/ender-twitch-bot#readme",
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}
