@@ -1,11 +1,14 @@
 const tmi = require('tmi.js');
+require('dotenv').config();
+
+const env = process.env;
 
 const opts = {
   identity: {
-    username: '<BOT_USERNAME>',
-    password: '<OAUTH_TOKEN>'
+    username: env.TWITCH_USERNAME,
+    password: env.TWITCH_TOKEN
   },
   channels: [
-    '<CHANNEL_NAME>'
+    env.TWITCH_CHANNEL
   ]
 };
